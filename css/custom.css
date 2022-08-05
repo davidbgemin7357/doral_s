@@ -1,0 +1,168 @@
+.logo {
+    /* border: 2px solid white;
+    background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+
+
+/* start portfolio */
+#clients {
+    padding-bottom: 80px;
+}
+
+#clients .col-md-3 {
+    padding: 0px;
+}
+
+.clients-thumb,
+.clients-overlay {
+    max-width: 450px;
+}
+
+#clients .clients-thumb {
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#clients .clients-thumb .clients-overlay {
+    background: #28a7e9;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    padding: 20px 10px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#clients .clients-thumb .clients-overlay h4 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#clients .clients-thumb .clients-overlay .btn {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#clients .clients-thumb:hover .clients-overlay {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.disabled {
+    pointer-events: none;
+    padding: 0px !important;
+}
+
+.overflows {
+    overflow: hidden;
+    padding: 0px;
+    height: 240px;
+    width: 50%;
+    margin: 0 auto;
+    /* pointer-events: none; */
+}
+
+.overflows img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    /* pointer-events: none; */
+}
+
+.overflows1 {
+    padding: 0px;
+    height: 240px;
+    width: 100%;
+    margin: 0 auto;
+    /* pointer-events: none; */
+}
+
+
+.overflows1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    /* pointer-events: none; */
+}
+
+#service .picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* pointer-events: none; */
+}
+
+
+
+a.btn.btn-default.wow.fadeInUp.animated {
+    position: relative;
+    top: 45px;
+
+}
+
+
+
+#conoce .col-md-4:hover {
+	background: #505050 !important;
+}
+
+#conoce .col-md-12:hover {
+	background: #505050 !important;
+}
+
+#team .col-md-4 img{
+    width: 100%;
+    /* border: 1px solid green */
+}
+
+#borrar *{
+    padding: 0px !important;
+    margin: 0px !important;
+    pointer-events: none;
+}
+#borrar .col-4 *{
+    border: 1px solid blue;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+
+#clients .fondo{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ddd;
+    background: #fff;
+    padding: 20px !important;
+}
+
+
+.logo:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.logo > img {
+    transition: all 0.5s ease-in-out;
+    overflow: auto;
+    /* width: 75%; */
+    max-width: 65%;
+    max-height: 65%;
+}
