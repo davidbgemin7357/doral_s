@@ -3,6 +3,9 @@ Awesome Template
 http://www.templatemo.com/preview/templatemo_450_awesome
 */
 
+::-webkit-scrollbar {
+    display: none;
+}
 body {
 	background: #3F3F3F;
 	color: #ffffff;
