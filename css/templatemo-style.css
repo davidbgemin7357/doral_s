@@ -221,7 +221,7 @@ header .social-icon li a {
 
 /* start home */
 #home {
-	background: url('../assets/img/home-bg.jpg') no-repeat;
+	background: url('../assets/img/PORTADA.JPG') no-repeat;
 
 	background-size: cover;
 	padding-top: 160px;
@@ -313,7 +313,7 @@ header .social-icon li a {
 
 #team .team-wrapper:hover {
 	cursor: pointer;
-	opacity: 0.4;
+	opacity: 1;
 	bottom: 4px;
 }
 
