@@ -21,13 +21,14 @@ const pictures = [
     "../assets/img/FOTO13_Mant y soporte RED.jpeg",
 ];
 
-const mostrar = (indice, p1, p2) => {
-    openModal[indice].addEventListener("click", (e) => {
+const mostrar = async(indice, p1, p2) => {
+    const pics = await openModal[indice].addEventListener("click", (e) => {
         imagenes[0].src = `${p1}`;
         imagenes[1].src = `${p2}`;
         e.preventDefault();
         modal.classList.add("modal--show");
     });
+    return pics
 };
 
 mostrar(0, pictures[0], pictures[1]);
