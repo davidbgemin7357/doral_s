@@ -7,8 +7,8 @@ http://www.templatemo.com/preview/templatemo_450_awesome
     display: none;
 }
 body {
-	background: #3F3F3F;
-	color: #ffffff;
+	background: #F5F5F5;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	overflow-x: hidden;
@@ -307,7 +307,7 @@ header .social-icon li a {
 
 /* start team */
 #team .team-wrapper {
-	background: #404040;
+	background: #f5f5f5;
 	padding-bottom: 10px;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
@@ -347,7 +347,9 @@ header .social-icon li a {
 }
 
 #service .col-md-4:hover {
-	background: #505050;
+	background: #D1D1D1;
+	border-radius: 15px;
+	cursor: pointer;
 }
 
 #service .col-md-12:hover {
@@ -444,7 +446,7 @@ header .social-icon li a {
 
 /* start contact */
 #contact {
-	background: #202020;
+	background: #D1D1D1;
 }
 
 #contact .form-control {
@@ -536,7 +538,7 @@ header .social-icon li a {
 .social-icon li a {
 	border: 1px solid #fff;
 	border-radius: 2px;
-	color: #fff;
+	color: black;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -548,8 +550,7 @@ header .social-icon li a {
 }
 
 .social-icon li a:hover {
-	background: #009CDF;
-	border-color: transparent;
+	color: #5185B7;
 }
 
 /* end social icon */
